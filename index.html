@@ -23,32 +23,29 @@
 						<span>Web</span>Studio
 					</a>
 					<div class="solid_menu">
-						<svg class="icon-solid_menu icon-close-box icon-close-burger-menu header-svg" width="44"
-							height="44">
+						<svg class="icon-solid_menu" width="44" height="44">
 							<use href="./images/symbol-defs1.svg#icon-menu"></use>
 						</svg>
 					</div>
 				</div>
 				<nav class="header__navigation">
-					<a href="#" target="_blank" rel="noopener noreferrer"
-						class="navigation-link header__menu-link active">
+					<a href="#" target="_blank" rel="noopener noreferrer" class="navigation-link">
 						Студія
 					</a>
 					<a href="/portfolio/portfolio.html" target="_blank" rel="noopener noreferrer"
-						class="navigation-link header__menu-link" id="5463">
+						class="navigation-link" id="5463">
 						Портфоліо
 					</a>
-					<a href="#" target="_blank" rel="noopener noreferrer" class="navigation-link header__menu-link"
-						id="5464">
+					<a href="#" target="_blank" rel="noopener noreferrer" class="navigation-link" id="5464">
 						Контакти
 					</a>
 				</nav>
 			</div>
 			<address class="header__contact-info burger-menu__address">
-				<a href="mailto:info@devstudio.com" class="header-email header__contact-link">
+				<a href="mailto:info@devstudio.com" class="header-email">
 					info@devstudio.com
 				</a>
-				<a href="tel:+380961111111" class="header-phone header__contact-link">
+				<a href="tel:+380961111111" class="header-phone">
 					+380 96 111 11 11
 				</a>
 			</address>
@@ -125,15 +122,24 @@
 				<h2 class="services-heading">Чим ми займаємося</h2>
 				<div class="services-images">
 					<div class="services-images__item">
-						<img src="./images/work-photo1.jpg" alt="Photo" class="services__image" />
+						<picture>
+							<source srcset="./images/box1_1200_2x.png 2x, ./images/box1_1200.png 1x" media="(min-width:1200px)">
+							<img src="./images/box1_1200.png" alt="box1">
+						</picture>
 						<p class="service-text1">Десктопні додатки</p>
 					</div>
 					<div class="services-images__item">
-						<img src="./images/work-photo2.jpg" alt="Photo" class="services__image" />
+						<picture>
+							<source srcset="./images/box2_1200_2x.png 2x, ./images/box2_1200.png 1x" media="(min-width:1200px)">
+							<img src="./images/box2_1200.png" alt="box2">
+						</picture>
 						<p class="service-text2">Мобільні додатки</p>
 					</div>
 					<div class="services-images__item">
-						<img src="./images/work-photo3.jpg" alt="Photo" class="services__image" />
+						<picture>
+							<source srcset="./images/box3_1200_2x.png 2x, ./images/box3_1200.png 1x">
+							<img src="./images/box3_1200.png" alt="box3">
+						</picture>
 						<p class="service-text3">Дизайнерські рішення</p>
 					</div>
 				</div>
@@ -144,7 +150,12 @@
 				<h2 class="team-heading">Наша команда</h2>
 				<div class="main-members">
 					<div class="team__member">
-						<img src="./images/work-photo4.jpg" alt="Photo" class="team-photo-sotur" />
+						<picture>
+							<source srcset="/images/igor_1200_2x.jpeg 2x, /images/igor_1200.jpeg 1x" media="(min-width:1200px)">
+							<source srcset="/images/igor_768_2x.jpeg 2x, /images/igor_768.jpeg 1x" media="(min-width:768px)">
+							<source srcset="/images/igor_480_2x.jpeg 2x, /images/igor_480.jpeg 1x" media="(min-width:320px)">
+							<img src="./images/igor_1200.png" alt="#">
+						</picture>
 						<div class="text-members">
 							<div class="team-info">
 								<h4 class="team-name">Ігор Дем'яненко</h4>
@@ -175,7 +186,12 @@
 						</div>
 					</div>
 					<div class="team__member">
-						<img src="./images/work-photo5.jpg" alt="Photo" class="team-photo-sotur" />
+						<picture>
+							<source srcset="./images/olga_1200_2x.png 2x, ./images/olga_1200.png 1x" media="(min-width:1200px)">
+							<source srcset="./images/olga_768_2x.png 2x, ./images/olga_768.png 1x" media="(min-width:768px)">
+							<source srcset="./images/olga_480_2x.png 2x, ./images/olga_480.png 1x" media="(min-width:320px)">
+							<img src="./images/olga_1200.png" alt="#">
+						</picture>
 						<div class="text-members">
 							<div class="team-info">
 								<h4 class="team-name">Ольга Рєпіна</h4>
@@ -206,7 +222,12 @@
 						</div>
 					</div>
 					<div class="team__member">
-						<img src="./images/work-photo6.jpg" alt="Photo" class="team-photo-sotur" />
+						<picture>
+							<source srcset="./images/mikola_1200_2x.png 2x, ./images/mikola_1200.png 1x" media="(min-width:1200px)">
+							<source srcset="./images/mikola_768_2x.png 2x, ./images/mikola_768.png 1x" media="(min-width:768px)">
+							<source srcset="./images/mikola_480_2x.png 2x, ./images/mikola_480.png 1x" media="(min-width:320px)">
+							<img src="./images/mikola_1200.png" alt="#">
+						</picture>
 						<div class="text-members">
 							<div class="team-info">
 								<h4 class="team-name">Микола Тарасов</h4>
@@ -237,7 +258,12 @@
 						</div>
 					</div>
 					<div class="team__member">
-						<img src="./images/work-photo7.jpg" alt="Photo" class="team-photo-sotur" />
+						<picture>
+							<source srcset="./images/mihalo_1200_2x.png 2x, ./images/mihalo_1200.png 1x" media="(min-width:1200px)">
+							<source srcset="./images/mihalo_768_2x.png 2x, ./images/mihalo_768.png 1x" media="(min-width:768px)">
+							<source srcset="./images/mihalo_480_2x.png 2x, ./images/mihalo_480.png 1x" media="(min-width:320px)">
+							<img src="./images/mihalo_1200.png" alt="#">
+						</picture>
 						<div class="text-members">
 							<div class="team-info">
 								<h4 class="team-name">Михайло Єрмаков</h4>
@@ -372,63 +398,52 @@
 	</footer>
 	<div class="burger-menu">
 		<button type="button" class="icon-close-box icon-close-burger-menu">
-			<svg class="icon-close" width="8" height="8">
-				<use href="./images/icons.svg#icon-close-black"></use>
+			<svg class="icon-close icon-close-box icon-close-burger-menu" width="44px" height="44px">
+				<use href="./images/symbol-defs3.svg#icon-close"></use>
 			</svg>
 		</button>
 		<nav class="burger-menu__nav">
 			<ul class="burger-menu__list">
 				<li class="burger-menu__item">
-					<a href="#" class="burger-menu__link burger-menu-active">Studio</a>
+					<a href="#" target="_blank" rel="noopener noreferrer"
+						class="header__menu-link active burger-menu__link burger-menu-active">
+						Студія
+					</a>
 				</li>
 				<li class="burger-menu__item">
-					<a href="#" class="burger-menu__link">Portfolio</a>
+					<a href="/portfolio/portfolio.html" target="_blank" rel="noopener noreferrer"
+						class="header__menu-link burger-menu__link" id="5463">
+						Портфоліо
+					</a>
 				</li>
 				<li class="burger-menu__item">
-					<a href="#" class="burger-menu__link">Contacts</a>
+					<a href="#" target="_blank" rel="noopener noreferrer"
+						class="header__menu-link burger-menu__link" id="5464">
+						Контакти
+					</a>
 				</li>
 			</ul>
 		</nav>
 		<address class="burger-menu__address">
 			<ul class="burger-menu__contact-list">
 				<li>
-					<a href="tel:+110001111111" class="burger-menu__contact-link bm--iris">+11 (000) 111-11-11</a>
+					<a href="tel:+380961111111" class="header-phone burger-menu__contact-link bm--iris">
+						+380 96 111 11 11
+					</a>
 				</li>
 				<li>
-					<a href="mailto:info@devstudio.com" class="burger-menu__contact-link">info@devstudio.com</a>
+					<a href="mailto:info@devstudio.com" class="header-email burger-menu__contact-link bm--iris">
+						info@devstudio.com
+					</a>
 				</li>
 			</ul>
 		</address>
-		<ul class="burger-menu__social-list">
-			<li class="burger-menu__social-item">
-				<a href="#" class="burger-menu__socials-link">
-					<svg class="icon-social-footer" width="24" height="24">
-						<use href="./images/icons.svg#icon-instagram"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="burger-menu__social-item">
-				<a href="#" class="burger-menu__socials-link">
-					<svg class="icon-social-footer" width="24" height="24">
-						<use href="./images/icons.svg#icon-twitter"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="burger-menu__social-item">
-				<a href="#" class="burger-menu__socials-link">
-					<svg class="icon-social-footer" width="24" height="24">
-						<use href="./images/icons.svg#icon-facebook"></use>
-					</svg>
-				</a>
-			</li>
-			<li class="burger-menu__social-item">
-				<a href="#" class="burger-menu__socials-link">
-					<svg class="icon-social-footer" width="24" height="24">
-						<use href="./images/icons.svg#icon-linkedin"></use>
-					</svg>
-				</a>
-			</li>
-		</ul>
+		<div class="burger-list">
+			<a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-burger">instagram</a>
+			<a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-burger">twitter</a>
+			<a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-burger">facebook</a>
+			<a href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="contact-burger">linkedin</a>
+		</div>
 	</div>
 	<script src="./index.js"></script>
 </body>
